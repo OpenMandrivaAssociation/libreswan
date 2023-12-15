@@ -38,11 +38,6 @@ Url: https://libreswan.org/
 Source0: https://download.libreswan.org/%{?prever:development/}%{name}-%{version}%{?prever}.tar.gz
 Source1: https://download.libreswan.org/%{?prever:development/}%{name}-%{version}%{?prever}.tar.gz.asc
 Source2: https://download.libreswan.org/LIBRESWAN-OpenPGP-KEY.txt
-%if 0%{with_cavstests}
-Source3: https://download.libreswan.org/cavs/ikev1_dsa.fax.bz2
-Source4: https://download.libreswan.org/cavs/ikev1_psk.fax.bz2
-Source5: https://download.libreswan.org/cavs/ikev2.fax.bz2
-%endif
  
 Patch1: libreswan-4.12-libcap-ng.patch
  
