@@ -41,7 +41,7 @@ Source2: https://download.libreswan.org/LIBRESWAN-OpenPGP-KEY.txt
  
 Patch1: libreswan-4.12-libcap-ng.patch
  
-BuildRequires: audit-libs-devel
+BuildRequires: pkgconfig(audit)
 BuildRequires: bison
 BuildRequires: curl-devel
 BuildRequires: flex
